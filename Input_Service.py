@@ -3,9 +3,13 @@ def input_service(sentence, types='str', error_msg='error'):
         i = input(sentence)
 
         if type(i).__name__ == types:
-            return  i
-    
-        print(error_msg)
+            return i
+        else:
+            try:
+                if types == "int" and int(i):
+                    return int(i)
+            except ValueError:
+                print(error_msg)
       
   
   '''
