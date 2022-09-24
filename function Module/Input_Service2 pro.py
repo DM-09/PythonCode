@@ -14,8 +14,8 @@ def input_service2(sentence, error_msg='error', types='int'):
         i = input(str(sentence))
 
         if i == '1':
-            return type_service2(i)
+            return type_service2(i, types)
         elif i == '2':
-            return type_service2(i)
+            return type_service2(i, types)
         else:
             print(error_msg)
