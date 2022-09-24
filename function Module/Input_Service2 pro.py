@@ -9,13 +9,13 @@ def type_service2(word, types='int'):
             return str(word)
 
 
-def input_service2(sentence, error_msg='error', ):
+def input_service2(sentence, error_msg='error', types='int'):
     while True:
         i = input(str(sentence))
 
         if i == '1':
-            return i
+            return type_service2(i)
         elif i == '2':
-            return i
+            return type_service2(i)
         else:
             print(error_msg)
