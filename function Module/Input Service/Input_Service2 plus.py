@@ -22,4 +22,6 @@ def input_service2(sentence, error_msg='error', types='int'):
 
 '''
 설명: 특정 값이면 설정한 타입으로 바꿔줌
+
+인자: sentence = 문자열(물어볼 말), error_msg = 문자열(에러메시지), types = 문자열(타입)
 '''
