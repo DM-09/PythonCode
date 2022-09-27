@@ -8,3 +8,8 @@ def input_service2(sentence, error_msg='error'):
             return i
         else:
             print(error_msg)
+
+
+'''
+설명: 특정 값만 반환
+'''
