@@ -17,3 +17,8 @@ def input_service2(sentence, error_msg='error', max_num='2', types='int'):
             return type_service2(i, types)
         else:
             print(error_msg)
+
+
+'''
+설명: 최댓값보다 같거나 작으면 설정한 타입으로 바꿔줌
+'''
