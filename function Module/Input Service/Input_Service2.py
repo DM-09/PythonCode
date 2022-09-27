@@ -11,6 +11,6 @@ def input_service2(sentence, error_msg='error'):
 
 
 '''
-설명: 특정 값만 반환
+설명: 특정 값만 반환(기본값: 1,2)
 인자: sentence = 문자열(물어볼 말), error_msg = 문자열(에러 메시지)
 '''
