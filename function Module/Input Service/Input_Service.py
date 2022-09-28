@@ -1,7 +1,7 @@
 def input_service(sentence, types='str', error_msg='error'):
     while True:
         i = input(sentence)
-0
+
         if type(i).__name__ == types:
             return i
         else:
