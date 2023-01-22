@@ -1,4 +1,5 @@
-print(input().split())
+print(input().split()) # For String
+print(list(map(int, input().split()))) # For Number
 
 '''
 When you need to put multiple strings in the list, this code switches to the list at once and prints it out.
