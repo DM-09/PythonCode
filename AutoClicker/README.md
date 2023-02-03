@@ -6,7 +6,8 @@ It's a simple auto clicker and I made it for fun. It is made with pyinstaller, s
 <a href="https://github.com/DM-09/PythonCode/releases/tag/AutoClicker">Download</a>
 
 ## Guide 사용법
-- Coming Soon
+- <a href="https://github.com/DM-09/PythonCode/blob/main/AutoClicker/Guide-Eng.md">English</a><br>
+- <a href="https://github.com/DM-09/PythonCode/blob/main/AutoClicker/Guide-Kor.md">한국어</a>
 
 ## Update Log 업데이트 로그
      -02/03/2023(KST)
