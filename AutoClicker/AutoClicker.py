@@ -10,8 +10,8 @@ frame = wx.Frame(None, title="Simple Auto Clicker", pos=(100, 0), size=(500, 300
 frame.Show(True)
 
 # element
-btn = wx.Button(frame, label="시작")
-label = wx.StaticText(frame, label="클릭 간격(초)")
+btn = wx.Button(frame, label="Start")
+label = wx.StaticText(frame, label="Interval (sec)")
 sec = wx.TextCtrl(frame, value="0")
 
 # pos
@@ -36,6 +36,7 @@ def start(event):
 # end
 app.Bind(wx.EVT_BUTTON, start)
 app.MainLoop()
+
 
 
 # Author: DM-09
