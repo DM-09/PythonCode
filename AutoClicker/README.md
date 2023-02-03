@@ -3,7 +3,7 @@
 It's a simple auto clicker and I made it for fun. It is made with pyinstaller, so the exe file can be somewhat heavy. There may be bugs.
 
 ## Download 다운로드
-<a href="https://github.com/DM-09/PythonCode/releases/tag/AutoClicker">Download</a>
+- <a href="https://github.com/DM-09/PythonCode/releases/tag/AutoClicker">Download</a>
 
 ## Guide 사용법
 - <a href="https://github.com/DM-09/PythonCode/blob/main/AutoClicker/Guide-Eng.md">English</a><br>
