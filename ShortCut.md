@@ -1,4 +1,4 @@
-# My Pychram Short Cut
+# My Pycharm Short Cut
 
 <div align=center>
 
