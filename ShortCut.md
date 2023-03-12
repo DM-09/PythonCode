@@ -1,5 +1,7 @@
 # My Pychram Short Cut
 
+<div align=center>
+
 |Short Cut|Original Code|
 |:---:|:---:|
 |fir|for i in range():
@@ -8,3 +10,4 @@
 |lmiis|list(map(int, input().split()))
 
 ## 
+</div>
