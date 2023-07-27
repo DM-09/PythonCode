@@ -3,4 +3,5 @@
 (1): Start Button, if click it and auto click is start.<br>
 (2): A space to write the click interval, only numbers should be used.<br>
 
-Stop: if you press ` button in your keyboard, auto click is stop
+Stop: if you press f2 button in your keyboard, auto click is stop <br>
+ShortCut: if you press f1 button in your keyboard, auto click is start
