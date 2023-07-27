@@ -50,3 +50,6 @@ keyboard.on_press(short_cut)
 
 app.Bind(wx.EVT_BUTTON, start)
 app.MainLoop()
+
+# Author: DM-09
+# Created Date: 07/27/2023(KST)
