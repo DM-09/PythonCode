@@ -12,32 +12,41 @@ frame.Show(True)
 # element
 btn = wx.Button(frame, label="Start")
 label = wx.StaticText(frame, label="Interval (sec)")
+label2 = wx.StaticText(frame, label="")
 sec = wx.TextCtrl(frame, value="0")
 
 # pos
 label.SetPosition(wx.Point(195, 40))
 btn.SetPosition(wx.Point(180, 120))
 sec.SetPosition(wx.Point(155, 80))
+label2.SetPosition(wx.Point(5, 5))
 
 
 # function
+
 def click(s):
+    label2.SetLabel('Started')
+
     while True:
-        if keyboard.is_pressed('`'):
-            break
+        if keyboard.is_pressed('f2'): break
         pyautogui.click()
         time.sleep(s)
 
+    label2.SetLabel('')
 
-def start(event):
-    click(int(sec.GetValue()))
+def use():
+    value = sec.GetValue()
 
+    if str(value).isdigit():
+        click(float(sec.GetValue()))
+
+def start(event): use()
+
+def short_cut(event):
+    if event.name == 'f1': use()
 
 # end
+keyboard.on_press(short_cut)
+
 app.Bind(wx.EVT_BUTTON, start)
 app.MainLoop()
-
-
-
-# Author: DM-09
-# Created Date: 02/03/2023(KST)
