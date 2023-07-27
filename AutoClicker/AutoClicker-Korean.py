@@ -36,9 +36,10 @@ def click(s):
 
 def use():
     value = sec.GetValue()
-
-    if str(value).isdigit():
-        click(float(sec.GetValue()))
+    try:
+        value = float(value)
+        click(value)
+    except: pass
 
 def start(event): use()
 
@@ -50,7 +51,3 @@ keyboard.on_press(short_cut)
 
 app.Bind(wx.EVT_BUTTON, start)
 app.MainLoop()
-
-
-# Author: DM-09
-# Created Date: 07/27/2023(KST)
