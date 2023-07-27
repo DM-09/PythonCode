@@ -20,3 +20,7 @@ It's a simple auto clicker and I made it for fun. It is made with pyinstaller, s
        
        Add a notification to let you know if it's started
        (시작됐는지 알려주는 알림 추가)
+
+       
+     -07/28/2023(KST)
+       Decimal input support(소수 입력 지원)
