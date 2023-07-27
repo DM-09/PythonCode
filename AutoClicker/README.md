@@ -12,4 +12,11 @@ It's a simple auto clicker and I made it for fun. It is made with pyinstaller, s
 ## Update Log 업데이트 로그
      -02/03/2023(KST)
        Made Auto Clicker V-1.0
-     
+
+       
+     -07/27/2023(KST)
+       Add ShortCut(단축키 추가)
+       Fixed Bug(버그 패치)
+       
+       Add a notification to let you know if it's started
+       (시작됐는지 알려주는 알림 추가)
