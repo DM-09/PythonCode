@@ -5,3 +5,6 @@
 
 Stop: Press and hold the f2 button on the keyboard (for a set number of seconds) to stop. <br>
 ShortCut: if you press f1 button in your keyboard, auto click is start
+
+
+** It takes a while to run the exe file
