@@ -1,12 +1,10 @@
-def frep(s : str, f : str, rep : str = '', c : int = 0):
-    co, st, f = 0, [], list(f)
+def frep(s : str, f : str, rep : str = ''):
+    st, f, lf = [], list(f), len(f)
     for i in s:
         st.append(i)
-        if st[-len(f):] == f:
-            exec("st.pop();"*len(f))
+        if st[-lf:] == f:
+            for _ in range(lf): st.pop()
             st.append(rep)
-            co += 1
-            if co == c: rep = ''.join(f)
     return ''.join(st)
 
 '''
@@ -14,9 +12,9 @@ def frep(s : str, f : str, rep : str = '', c : int = 0):
 
 s(문자열) 문자열
 f(문자열) 패턴
-rep(문자열) 바꿀 문자열 (기본 = '')
-c(정수) 바꿀 횟수 (기본 = 전부)
-'''
+rep(문자열) 바꿀 문자열 (기본 = "")
 
-# 예제
-print(frep('q22323', '2', '!', 2)) # q!!323
+
+rep 쓸 필요 없으면 (rep == "") 매개변수 rep지우고 8번줄(st.append) 부분도 삭제
+(그러면 백준 9935번 38860 KB, 284 ms 로 통과 가능)
+'''
