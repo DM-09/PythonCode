@@ -18,6 +18,7 @@ def Str_Binary_Search(target, ascii, data):
 아스키 코드를 이용한 문자열 버전 이분탐색
 (리스트 정렬 할 때 아스키 코드를 사용한다는 것에서 착안)
 
+*리스트 정렬은: sorted(data, key= lambda x: GetAscii(x)) 이렇게 해야함
 
 - GetAscii 함수: 주어진 문자열을 아스키 코드로 나열한 숫자로 변환
 
@@ -35,6 +36,6 @@ def Str_Binary_Search(target, ascii, data):
 
 target = '11'
 Ascii = GetAscii(target) # 4949
-data = sorted(['23', '11', '32', '0', '10', '5']) # ['0', '10', '11', '23', '32', '5']
+data = sorted(data, key= lambda x: GetAscii(x)) # 이렇게 정렬해야함
 
 print(Str_Binary_Search(target, Ascii, data))
